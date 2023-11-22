@@ -6,6 +6,7 @@ def main(list1):
     Returns:
         list: return answer
     """
-
-    return [1]
+    
+    return list1[0]
 print(main([1,2,3,4,5]))
+print(main(["x",1,"y",2,"z",3]))
